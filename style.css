@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.parentclass{
+    background-color: black !important;
+    
+}
+#header{
+    width: 100%;
+    height:100vh ;
+    background-image: url(images/new1back_img.png);
+    background-size:cover;
+    background-position: center;
+    /* background-size: 1420px 800px; */
+    color: #fff !important;
+}
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display:flex;
+    align-items:center ;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width:160px ;
+    border-radius: 50%;
+    border-width: 0;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#ff004f ;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+
+
+}
+.header-text{
+    margin-top: 20%;
+    font-size:30px ;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color:#ff004f ;
+}
+.header-text h4{
+    margin-top:20px ;
+}
+
+
+/* ---------Skils---------- */
+#Skil-Heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    color: gold;
+    text-shadow: rgb(255, 255, 255) 0px 0px 50px;
+}
+.skilss {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(25, 25, 25);
+}
+.fabicon .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    background-color: aqua;
+}
+.skils {
+    background-color: rgb(25, 25, 25);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    box-shadow: rgba(230, 221, 221, 0.3) 0px 0px 30px;
+    border-radius: 50%;
+    position: relative;
+}
+.Skil_icon {
+    min-width: 17px;
+    height: 60px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 50%;
+    font-size: 49px;
+}
+.huEXyV .cardBox {
+    width: 90vw;
+    height: 100%;
+    margin: 100px auto;
+    display: flex;
+}
+.huEXyV .skils:hover h3 {
+    color: rgb(242, 15, 15);
+}
+.huEXyV .skils:hover {
+    box-shadow: rgba(255, 255, 255) 0px 0px 30px;
+}
+
+
+.huEXyV .skils h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin: -3px auto;
+    color: gold;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+/* ----------portfolio------------ */
+.fUBOgH {
+    width: 100%;
+    height: 160px;
+    background: rgb(25, 25, 25);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.fUBOgH p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.button-two {
+    background-color: rgb(242, 15, 15);
+    
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 22px;
+    border-radius: 30px;
+    transition: all 0.4s ease 0s;
+}
+.mx-4 {
+    margin-left: 1.5rem!important;
+    margin-right: 1.5rem!important;
+}
+
+/* ------------------about--------------- */
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.about2{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 80%;
+    border-radius: 15%;
+
+} 
+.about-col-2{
+    flex-basis: 60%;
+} 
+.subtitle1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-links{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 50px;
+    cursor: pointer;
+    position: relative;
+}
+/* .tab-links::after{
+content: '';
+width: 0;
+background:#ff004f;
+position: absolute;
+left: 0;
+bottom: -8px;
+transition: 0.5s;
+} */
+
+/* ------------------contact------------------------- */
+.contact-left{
+    flex-basis :35%;
+    color: #fff;
+
+}
+.contact-left p {
+    margin-bottom: 30px;
+    color: #fff;
+}
+.contact-left p i{
+    color: #6600ff;
+    margin-right:15px ;
+    font-size: 25px;
+}
+
+.social-icons{
+margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+
+}
+.social-icons a:hover{
+    color: #6600ff;
+    transform:translateY(-5px);
+}
+
+.contact-right{
+    flex-basis :60%;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background:#262626 ;
+    padding: 15px;
+    margin: 15px 0;
+    color:#fff;
+    font-size:18px;
+    border-radius:6px;
+
+}
+form .btn2{
+    padding:14px 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+/* --------lastSection-------- */
+
+.lastsection{
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 25px 0;
+    background-color: #020202;
+    color:white;
+}
+/* .lastsection i{
+    color:#ff004f ;
+} */
+/*---css for small Screens----------- */
+nav .fa1 {
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+      background-image:url(images/2345.png) ;
+
+    }
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .header-text h1{
+        font-size:30px;
+    }
+    nav .fa1 {
+        display:block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height:100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display:block;
+        margin:25px;
+    }
+    nav ul .fa1{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+    }
+    .subtitle1{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+    }
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+    .about-col-2{
+        font-size: 14px;
+    }
+    .contact-left, .contact-right{
+        flex-basis: 100%;
+    }
+    .fUBOgH {
+        align-items: center;
+    justify-content: center;
+    }
+    .fUBOgH p{
+        text-align: center;
+    }
+
+}
+
+#msg{
+    color:#61b752;
+    margin-top: -40px;
+    display: block;
+}
